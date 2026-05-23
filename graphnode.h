@@ -17,7 +17,6 @@ public:
 
     int getId() const { return m_id; }
 
-    // Метод для обновления позиции текста при перемещении
     void updateTextPosition();
 
 private:
@@ -26,4 +25,4 @@ private:
     QGraphicsTextItem* m_textItem;
 };
 
-#endif // GRAPHNODE_H
+#endif
